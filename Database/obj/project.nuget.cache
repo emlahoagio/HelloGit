@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "cxxdH2xjmNDSUugZJWBepJh5ZuHNFVBUlIsWugyE22fT8++hJ+4lHwX6fW7WiivipQ44MSdHxpDMb6TSjwQtrw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\QUAN\\Desktop\\Demo3-Tier\\Database\\Database.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Demo3-Tier is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project Demo3-Tier supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Demo3-Tier",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

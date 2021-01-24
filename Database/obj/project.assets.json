@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Demo3-Tier/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Demo3-Tier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Demo3-Tier.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Demo3-Tier/1.0.0": {
+      "type": "project",
+      "path": "../Demo3-Tier/Demo3-Tier.csproj",
+      "msbuildProject": "../Demo3-Tier/Demo3-Tier.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Demo3-Tier >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\QUAN\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\QUAN\\Desktop\\Demo3-Tier\\Database\\Database.csproj",
+      "projectName": "Database",
+      "projectPath": "C:\\Users\\QUAN\\Desktop\\Demo3-Tier\\Database\\Database.csproj",
+      "packagesPath": "C:\\Users\\QUAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\QUAN\\Desktop\\Demo3-Tier\\Database\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\QUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\QUAN\\Desktop\\Demo3-Tier\\Demo3-Tier\\Demo3-Tier.csproj": {
+              "projectPath": "C:\\Users\\QUAN\\Desktop\\Demo3-Tier\\Demo3-Tier\\Demo3-Tier.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Demo3-Tier is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project Demo3-Tier supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "Demo3-Tier",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
